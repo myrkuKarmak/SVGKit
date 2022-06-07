@@ -64,13 +64,6 @@
 
 		if( [[parentAsElement getAttribute:@"id"] isEqualToString:idValue])
 			return parentAsElement;
-#if DEBUG_DOM_MATCH_ELEMENTS_IDS_AND_NAMES
-		else
-		{
-			SVGKitLogVerbose(@"parent <%@ id='%@'..> does not match id='%@'", parentAsElement.nodeName, [parentAsElement getAttribute:@"id"], idValue );
-			SVGKitLogVerbose(@"parent <%@ id='%@'..> has %li child nodes = %@", parentAsElement.nodeName, [parentAsElement getAttribute:@"id"], parent.childNodes.length, parent.childNodes );
-		}
-#endif
 	}
 	
 	for( Node* childNode in parent.childNodes )

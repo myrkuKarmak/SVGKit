@@ -389,7 +389,7 @@ CGFloat SVGPercentageFromString (const char *string) {
 	size_t len = strlen(string);
 	
 	if (string[len-1] != '%') {
-		SVGKitLogWarn(@"Invalid percentage: %s", string);
+		
 		return -1;
 	}
 	
