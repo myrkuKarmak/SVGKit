@@ -7,8 +7,8 @@
 //
 
 #import "SVGKit.h"
-#import "CocoaLumberjack/DDTTYLogger.h"
-#import "CocoaLumberjack/DDASLLogger.h"
+#import "DDTTYLogger.h"
+#import "DDASLLogger.h"
 
 @implementation SVGKit : NSObject
 
