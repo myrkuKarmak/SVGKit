@@ -146,6 +146,10 @@
 		0F8855FF285A881800D6F122 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F885579285A881800D6F122 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F885600285A881800D6F122 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F885579285A881800D6F122 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F885601285A881800D6F122 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F885579285A881800D6F122 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9D4494285A8C4C000945BE /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9D4495285A8C4D000945BE /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9D4496285A8C4E000945BE /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9D4497285A8C4F000945BE /* SVGKDefine_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A10E6DD24C57B6D005BB692 /* SVGKDefine_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAA6A2171ECDE00640504 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 321EAA542171E72900640504 /* libxml2.tbd */; };
 		321EAA6B2171ECE200640504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321EAA582171E73800640504 /* Foundation.framework */; };
 		321EAA6C2171ECE700640504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321EAA562171E73100640504 /* CoreGraphics.framework */; };
@@ -2165,6 +2169,7 @@
 				321EAAD32171ED6F00640504 /* SVGUseElement_Mutable.h in Headers */,
 				321EAA8E2171ED6900640504 /* DocumentCSS.h in Headers */,
 				321EAB4F2171EDA200640504 /* SVGKPattern.h in Headers */,
+				0F9D4497285A8C4F000945BE /* SVGKDefine_Private.h in Headers */,
 				321EAACE2171ED6F00640504 /* SVGSVGElement_Mutable.h in Headers */,
 				321EAA932171ED6900640504 /* StyleSheet.h in Headers */,
 				321EAAA82171ED6900640504 /* NodeList.h in Headers */,
@@ -2349,6 +2354,7 @@
 				66E864191688C2780059C9C4 /* SVGKit.h in Headers */,
 				66E8641A1688C2780059C9C4 /* SVGKSource.h in Headers */,
 				0F8855D2285A881800D6F122 /* DDLog+LOGV.h in Headers */,
+				0F9D4494285A8C4C000945BE /* SVGKDefine_Private.h in Headers */,
 				66E8641C1688C2780059C9C4 /* SVGKFastImageView.h in Headers */,
 				66E8641E1688C2780059C9C4 /* SVGKImageView.h in Headers */,
 				66E864201688C2780059C9C4 /* SVGKLayeredImageView.h in Headers */,
@@ -2508,6 +2514,7 @@
 				825CDB441BDA505D003C1C12 /* SVGEllipseElement.h in Headers */,
 				825CDB451BDA505D003C1C12 /* SVGGroupElement.h in Headers */,
 				0F8855D3285A881800D6F122 /* DDLog+LOGV.h in Headers */,
+				0F9D4495285A8C4D000945BE /* SVGKDefine_Private.h in Headers */,
 				825CDB461BDA505D003C1C12 /* SVGImageElement.h in Headers */,
 				825CDB471BDA505D003C1C12 /* SVGLineElement.h in Headers */,
 				825CDB481BDA505D003C1C12 /* SVGPathElement.h in Headers */,
@@ -2667,6 +2674,7 @@
 				825CDBC41BDA50B8003C1C12 /* SVGEllipseElement.h in Headers */,
 				825CDBC51BDA50B8003C1C12 /* SVGGroupElement.h in Headers */,
 				0F8855D4285A881800D6F122 /* DDLog+LOGV.h in Headers */,
+				0F9D4496285A8C4E000945BE /* SVGKDefine_Private.h in Headers */,
 				825CDBC61BDA50B9003C1C12 /* SVGImageElement.h in Headers */,
 				825CDBC71BDA50B9003C1C12 /* SVGLineElement.h in Headers */,
 				825CDBC81BDA50B9003C1C12 /* SVGPathElement.h in Headers */,
