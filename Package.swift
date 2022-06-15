@@ -23,9 +23,7 @@ let package = Package(
     targets: [
         .target(
             name: "SVGKit",
-            dependencies: [
-                "CocoaLumberjack"
-            ],
+            dependencies: [],
             path: "Source",
             exclude: [
                 "SwiftUI additions"
